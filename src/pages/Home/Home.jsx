@@ -26,8 +26,8 @@ const Home = () => {
        <h1 data-aos="fade-up">Menu</h1> 
         </div>
         <div className="home-container-two">
-         <Link> <img src={preorder} alt="" /></Link>
-          <h1  data-aos="fade-up" >Pre-Order</h1>
+        <Link to={"/preorder"} className='link'> <img src={preorder} alt="" /></Link>
+       <h1 data-aos="fade-up">Pre-Order</h1> 
         </div>
         <div className="home-container-three">
           <Link to={"/Bulkordering"} ><img src={bulkordering} alt="" /></Link>
