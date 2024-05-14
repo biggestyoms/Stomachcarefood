@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.menu{
+    background: white;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.menu-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    width: 100%;
+}
+.menu-nav ul{
+    display: flex;
+}
+.menu-nav ul li{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.menu-nav ul li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.search-box input{
+border: none;
+margin-left: 20px;
+
+}
+.ricedishes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+.ricedishes h1{
+    color: black;
+    font-family:"Dancing Script", cursive;
+    font-size: 3rem;
+}
+.ricedishes ul{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+.ricedishes ul li{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.soup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 0 3rem;
+
+}
+.soup h1{
+    color: black;
+    font-family:"Dancing Script", cursive;
+    font-size: 3rem;
+}
+.soup ul{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.soup ul li{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.spacialdishes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 0 3rem;
+}
+.spacialdishes h1{
+    color: black;
+    font-family:"Dancing Script", cursive;
+    font-size: 3rem;
+}
+.spacialdishes ul{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.spacialdishes ul li{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.swallow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 0 3rem;
+}
+.swallow h1{
+   color: black;
+   font-family:"Dancing Script", cursive;
+   font-size: 3rem;
+}
+.swallow ul{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.swallow ul li{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.protein{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 0 3rem;
+    margin-bottom: 50px;
+}
+.protein h1{
+    color: black;
+    font-family:"Dancing Script", cursive;
+   font-size: 3rem;
+}
+.protein ul{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+  
+}
+.protein ul li{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+@media screen and (max-width:425px){
+    .menu-nav ul li{
+        margin-right: 9px;
+        cursor: pointer;
+        font-size: 10px;
+        margin-left: 9px;
+        
+    }
+    .search-box input{
+        display: none;
+        
+        }
+     button{
+            display: none;
+        }
+        .ricedishes{
+            margin-top: 2px;
+        
+        }
+        .ricedishes h1{
+            font-size: 1.3rem;
+        }
+        .ricedishes ul{
+            margin-top: 10px;
+            gap: 10px;
+        }
+        .ricedishes ul li{
+       font-size: 12px;
+        }
+        .soup{
+            margin-top: 7px;
+            
+        
+        }
+        .soup h1{
+            font-size: 1.3rem;
+        }
+        .soup ul{
+            margin-top: 10px;
+            gap: 10px;
+           
+        }
+        .soup ul li{
+       font-size: 12px;
+        }
+        .swallow{
+            margin-top: 7px;
+        
+        }
+        .swallow h1{
+            font-size: 1.3rem;
+        }
+        .swallow ul{
+            margin-top: 10px;
+            gap: 10px;
+        }
+        .swallow ul li{
+       font-size: 12px;
+        }
+        .protein{
+            margin-top: 7px;
+        
+        }
+        .protein h1{
+            font-size: 1.3rem;
+        }
+        .protein ul{
+            margin-top: 10px;
+            gap: 10px;
+        }
+        .protein ul li{
+       font-size: 12px;
+        }
+}

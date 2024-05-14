@@ -1,0 +1,61 @@
+.hero{
+    background:linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url(../../assets/image1.jpeg);
+    height: 70vh;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    width: 100%;  
+}
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.hero-info h1{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero-info h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero-info a .icon{
+    color: green;
+    margin-left: 20px;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1024px) {
+    .hero{
+        min-height: 40vh;
+    }
+   .hero-info{
+   width: 100%;
+   h1{
+    font-size: 2.3rem;
+    
+   }
+  
+   }
+   .hero-info  h2{
+    font-size: 1.5rem;
+   }
+   .hero-info h2 .icon{
+    font-size: 1rem;
+   margin-left: 4px;
+   font-size: 1.2rem;
+   }
+
+}
+@media screen and (max-width:425px){
+.hero{
+    height: 30vh;
+}
+}
+

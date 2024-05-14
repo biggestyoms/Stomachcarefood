@@ -1,0 +1,53 @@
+.pre-order{
+    background: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pre-order-info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.pre-order-info h1{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serifz;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.pre-order-info p{
+    color: black;
+    font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+    .pre-order-info{
+        gap: 20px;
+    }
+    .pre-order-info h1{
+        font-size: 30px;
+    }
+    .pre-order-info p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .pre-order{
+        background: white;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pre-order-info h1{
+  
+        font-size: 20px;
+
+    }
+    .pre-order-info p{
+        color: black;
+        font-size: 10px;
+    }
+}
