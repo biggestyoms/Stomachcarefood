@@ -56,7 +56,7 @@ const Navbar = () => {
         <button className="closebtn" onClick={closeNav}>&times;</button>
         <Link to={"/menu"} onClick={closeNav}><li>Menu</li></Link>
         <Link to={"/reservation"} onClick={closeNav}><li>Pre-order</li></Link>
-        <Link to={"/bulkordering"} onClick={closeNav}><li>Bulk Orders</li></Link>
+        <Link to={"/bulk"} onClick={closeNav}><li>Bulk Orders</li></Link>
         <Link to={"/bulkordering"} onClick={closeNav}><li>Events & Caterings</li></Link>
         <div className="socials">
         <a href="https://www.instagram.com/care.stomach?igsh=NXR5NG9lZTI5d3dk
