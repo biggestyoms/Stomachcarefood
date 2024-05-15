@@ -22,7 +22,7 @@ const Bulk = () => {
         <li><strong>Discuss Your Needs:</strong> Our team will work with you to understand your requirements and preferences. We’ll help you select the best menu options and accommodate any special dietary needs.</li>
         <li><strong>Receive a Quote:</strong> Based on your selections, we’ll provide a detailed quote. We strive to offer competitive pricing without compromising on quality.</li>
         <li><strong>Confirm Your Order:</strong> Once you’re satisfied with the menu and quote, confirm your order with a deposit. Our team will take care of the rest, ensuring your meals are prepared and delivered as scheduled.</li>
-        <li><strong>Enjoy Your Event:</strong> On the day of your event, relax and enjoy while we take care of the food. We guarantee your guests will be impressed with the delicious meals from Stomach Care Food.</li>
+        <li><strong>Enjoy Your Event:</strong> On the day of your event, relax and enjoy while we take care of the food. We guarantee your guests will be impressed with the delicious meals from us.</li>
     </ul>
 
     
