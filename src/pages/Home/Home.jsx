@@ -30,7 +30,7 @@ const Home = () => {
        <h1 data-aos="fade-up">Pre-Order</h1> 
         </div>
         <div className="home-container-three">
-          <Link to={"/Bulkordering"} ><img src={bulkordering} alt="" /></Link>
+          <Link to={"/bulk"} ><img src={bulkordering} alt="" /></Link>
         <h1  data-aos="fade-up" >Bulk Orders</h1>
         </div>
         <div className="home-container-four">

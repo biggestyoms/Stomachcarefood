@@ -14,7 +14,7 @@ const Hero = () => {
     <div className='hero'>
       <div className="hero-info">
         <h1 data-aos="fade-left" >Welcome!</h1>
-        <h2 data-aos="fade-right">Pick something from our menu  & place your call <a href="tel:+16477055758"><IoCall  className='icon'/></a></h2>
+        <h2 data-aos="fade-right">Pick something from our menu  & place your order <a href="tel:+16477055758"><IoCall  className='icon'/></a></h2>
       </div>
     </div>
   )

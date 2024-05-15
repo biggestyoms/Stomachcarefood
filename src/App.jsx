@@ -7,6 +7,7 @@ import Home from './pages/Home/Home'
 import Reservation from './pages/Reservation/Reservation'
 import Bulkordering from './pages/Bulkordering/Bulkordering'
 import Footer from './components/Footer/Footer'
+import Bulk from './pages/Bulk/Bulk'
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
     <Route path='/menu' element={<Menu />} />
     <Route path='/reservation' element={<Reservation />} />
     <Route path='/Bulkordering' element={<Bulkordering/>} />
+    <Route path='/bulk' element={<Bulk />} />
    </Routes>
   <Footer />
    
