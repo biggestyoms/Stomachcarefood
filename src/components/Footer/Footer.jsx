@@ -32,8 +32,7 @@ const Footer = () => {
 https://www.instagram.com/care.stomach?igsh=NXR5NG9lZTI5d3dk"> <FaInstagram className='icon' /></a>
       <a href="https://www.facebook.com/adenike.fadayomi?mibextid=LQQJ4d
 https://www.facebook.com/adenike.fadayomi?mibextid=LQQJ4d"><FaFacebook className='icon' /></a>
-      <a href="https://wa.me/+16477055758
-https://wa.me/+16477055758"><FaWhatsapp className='icon' /></a>
+      <a href="https://wa.me/+16477055758"><FaWhatsapp className='icon' /></a>
           </div>
         </div>
       </div>
