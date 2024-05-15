@@ -31,11 +31,11 @@ const Home = () => {
         </div>
         <div className="home-container-three">
           <Link to={"/Bulkordering"} ><img src={bulkordering} alt="" /></Link>
-        <h1  data-aos="fade-up" >Bulk Ordering</h1>
+        <h1  data-aos="fade-up" >Bulk Orders</h1>
         </div>
         <div className="home-container-four">
           <Link to={"/Bulkordering"}><img src={eventandcatering} alt="" /></Link>
-        <h1  data-aos="fade-up" >Event & Catering</h1>
+        <h1  data-aos="fade-up" >Events & Caterings</h1>
         </div>
       </div>
     </div>

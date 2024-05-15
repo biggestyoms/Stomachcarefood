@@ -7,6 +7,8 @@ import Home from './pages/Home/Home'
 import Reservation from './pages/Reservation/Reservation'
 import Bulkordering from './pages/Bulkordering/Bulkordering'
 import Footer from './components/Footer/Footer'
+
+
 const App = () => {
   return (
    <BrowserRouter>

@@ -48,3 +48,99 @@
     }
     
 }
+.hamburger {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .sidenav.open {
+    width: 100%;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 39px;
+    margin-left: 70px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+  }
+  .sidenav.closing {
+    transition: width 0.1s;
+  }
+  
+  .sidenav.closing a {
+    display: none;
+
+  }
+  
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .sidenav .socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    .icon{
+        font-size: 40px;
+
+    }
+  }
+
+
+@media screen and (max-width:643px) {
+    .sidenav .closebtn{
+        display: block;
+    }
+    
+}
+@media screen and (max-width:643px) {
+    .sidenav .closebtn{
+        display: block;
+    }
+    
+}
+@media screen and (max-width:425px) {
+    .sidenav .closebtn{
+        display: block;
+    }
+    
+}
