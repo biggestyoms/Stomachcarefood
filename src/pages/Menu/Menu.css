@@ -297,3 +297,77 @@ margin-left: 20px;
        font-size: 12px;
         }
 }
+@media screen and (max-width:643px){
+    .menu-nav ul li{
+        margin-right: 9px;
+        cursor: pointer;
+        font-size: 10px;
+        margin-left: 9px;
+        
+    }
+    .search-box input{
+        display: none;
+        
+        }
+     button{
+            display: none;
+        }
+        .ricedishes{
+            margin-top: 2px;
+        
+        }
+        .ricedishes h1{
+            font-size: 1.3rem;
+        }
+        .ricedishes ul{
+            margin-top: 10px;
+            gap: 10px;
+        }
+        .ricedishes ul li{
+       font-size: 12px;
+        }
+        .soup{
+            margin-top: 7px;
+            
+        
+        }
+        .soup h1{
+            font-size: 1.3rem;
+        }
+        .soup ul{
+            margin-top: 10px;
+            gap: 10px;
+           
+        }
+        .soup ul li{
+       font-size: 12px;
+        }
+        .swallow{
+            margin-top: 7px;
+        
+        }
+        .swallow h1{
+            font-size: 1.3rem;
+        }
+        .swallow ul{
+            margin-top: 10px;
+            gap: 10px;
+        }
+        .swallow ul li{
+       font-size: 12px;
+        }
+        .protein{
+            margin-top: 7px;
+        
+        }
+        .protein h1{
+            font-size: 1.3rem;
+        }
+        .protein ul{
+            margin-top: 10px;
+            gap: 10px;
+        }
+        .protein ul li{
+       font-size: 12px;
+        }
+}
