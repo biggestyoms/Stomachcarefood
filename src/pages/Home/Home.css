@@ -23,7 +23,7 @@
     
 }
 .home-container-one{
-flex-basis: calc(50%-2rem) ;
+flex-basis: calc(50% - 2rem) ;
 position: relative;
 
 
@@ -34,7 +34,7 @@ position: relative;
 
 }
 .home-container-three{
-    flex-basis: calc(50%-2rem) ;
+    flex-basis: calc(50% - 2rem) ;
     position: relative;
    
 
@@ -104,7 +104,7 @@ position: relative;
 }
 @media screen and (max-width: 625px) {
     .home-container-one, .home-container-three {
-      flex-basis: calc(50%-1rem);
+      flex-basis: calc(50% - 1rem);
     }
     .home-container-one img, .home-container-two img, .home-container-three img, .home-container-four img {
       width: 350px;
