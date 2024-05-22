@@ -26,7 +26,7 @@ const Bulkordering = () => {
 
             <div className='form'>
 
-              <span><a href="#">CATERING </a></span><span><a href="#">EVENTS</a></span>
+              <span><a href="https://forms.gle/M7BZUEaa59fGdG3L9">CATERING </a></span><span><a href="https://forms.gle/vpDwNMgVibMC5v2bA">EVENTS</a></span>
 
 
             </div>
