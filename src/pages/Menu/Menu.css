@@ -1,447 +1,202 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .menu{
-    background: white;
-    height: fit-content;
     display: flex;
+    width: 1005;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
 }
 .menu-nav{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem;
-    width: 100%;
+    margin: 2rem 0;
+    gap: 20px;
 }
 .menu-nav ul{
     display: flex;
 }
-.menu-nav ul li{
-    margin-right: 20px;
-    cursor: pointer;
-}
 .menu-nav ul li a{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-}
-.search-box input{
-border: none;
-margin-left: 20px;
-
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: "Dancing Script", cursive;
 }
 .ricedishes{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 2rem;
     justify-content: center;
-    margin-top: 80px;
-
+   
 }
 .ricedishes h1{
-    color: black;
-    font-family:"Dancing Script", cursive;
-    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+
 }
 .ricedishes ul{
     display: flex;
-    margin-top: 20px;
-    gap: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
 }
-.ricedishes ul li{
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.ricedishes ul li {
+    flex-basis: calc(20% );
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
 }
-
+.ricedishes ul li img{
+    width: 240px;
+    height: 30vh;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
 .soup{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 2rem;
     justify-content: center;
-    margin-top: 80px;
-    padding: 0 3rem;
-
+   
 }
 .soup h1{
-    color: black;
-    font-family:"Dancing Script", cursive;
-    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+
 }
 .soup ul{
     display: flex;
-    margin-top: 20px;
-    gap: 30px;
+    width: 100%;
     flex-wrap: wrap;
-}
-.soup ul li{
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  
-}
-.spacialdishes{
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
-    padding: 0 3rem;
+    margin: 30px;
 }
-.spacialdishes h1{
-    color: black;
-    font-family:"Dancing Script", cursive;
-    font-size: 3rem;
-}
-.spacialdishes ul{
+.soup ul li {
+    flex-basis: calc(20% );
+    flex-direction: column;
     display: flex;
-    margin-top: 20px;
-    gap: 30px;
-    flex-wrap: wrap;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
 }
-.spacialdishes ul li{
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.soup ul li img{
+    width: 240px;
+    height: 30vh;
+    object-fit: cover;
+    margin: 2rem 0;
 }
 .swallow{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 2rem;
     justify-content: center;
-    margin-top: 80px;
-    padding: 0 3rem;
+   
 }
 .swallow h1{
-   color: black;
-   font-family:"Dancing Script", cursive;
-   font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+
 }
 .swallow ul{
     display: flex;
-    margin-top: 20px;
-    gap: 30px;
+    width: 100%;
     flex-wrap: wrap;
-}
-.swallow ul li{
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.protein{
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
-    padding: 0 3rem;
-    margin-bottom: 50px;
+    margin: 30px;
 }
-.protein h1{
-    color: black;
-    font-family:"Dancing Script", cursive;
-   font-size: 3rem;
-}
-.protein ul{
+.swallow ul li {
+    flex-basis: calc(20% );
+    flex-direction: column;
     display: flex;
-    margin-top: 20px;
-    gap: 20px;
-    flex-wrap: wrap;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+}
+.swallow ul li img{
+    width: 240px;
+    height: 30vh;
+    object-fit: cover;
+    margin: 2rem 0;
+}
+@media screen and (max-width: 1024px){
   
-}
-.protein ul li{
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-   
-}
-@media screen and (max-width:425px){
-    .menu-nav ul li{
-        margin-right: 9px;
-        cursor: pointer;
-        font-size: 10px;
-        margin-left: 9px;
+    .ricedishes ul li {
+        flex-basis: calc(10%);
+       gap: 20px;
         
     }
-    .search-box input{
-        display: none;
-        
-        }
-     button{
-            display: none;
-        }
-        .ricedishes{
-            margin-top: 2px;
-        
-        }
-        .ricedishes h1{
-            font-size: 1.3rem;
-        }
-        .ricedishes ul{
-            margin-top: 10px;
-            gap: 10px;
-        }
-        .ricedishes ul li{
-       font-size: 12px;
-        }
-        .soup{
-            margin-top: 7px;
-            
-        
-        }
-        .soup h1{
-            font-size: 1.3rem;
-        }
-        .soup ul{
-            margin-top: 10px;
-            gap: 10px;
-           
-        }
-        .soup ul li{
-       font-size: 12px;
-        }
-        .swallow{
-            margin-top: 7px;
-        
-        }
-        .swallow h1{
-            font-size: 1.3rem;
-        }
-        .swallow ul{
-            margin-top: 10px;
-            gap: 10px;
-        }
-        .swallow ul li{
-       font-size: 12px;
-        }
-        .protein{
-            margin-top: 7px;
-        
-        }
-        .protein h1{
-            font-size: 1.3rem;
-        }
-        .protein ul{
-            margin-top: 10px;
-            gap: 10px;
-        }
-        .protein ul li{
-       font-size: 12px;
-        }
-}
-@media screen and (max-width:425px){
-    .menu-nav ul li{
-        margin-right: 9px;
-        cursor: pointer;
-        font-size: 10px;
-        margin-left: 9px;
+    .ricedishes ul li img{
+        width: 240px;
+        height: 30vh;
+        object-fit: cover;
+        margin: 1rem;
+
+    }
+    .soup ul li {
+        flex-basis: calc(10%);
+        gap: 20px;
+    }
+    .soup ul li img{
+        width: 240px;
+        height: 30vh;
+        object-fit: cover;
+        margin: 1rem;
+
+    }
+    .swallow ul li {
+        flex-basis: calc(10%);
+        gap: 20px;
         
     }
-    .search-box input{
-        display: none;
-        
-        }
-     button{
-            display: none;
-        }
-        .ricedishes{
-            margin-top: 2px;
-        
-        }
-        .ricedishes h1{
-            font-size: 1.3rem;
-        }
-        .ricedishes ul{
-            margin-top: 10px;
-            gap: 10px;
-        }
-        .ricedishes ul li{
-       font-size: 12px;
-        }
-        .soup{
-            margin-top: 7px;
-            
-        
-        }
-        .soup h1{
-            font-size: 1.3rem;
-        }
-        .soup ul{
-            margin-top: 10px;
-            gap: 10px;
-           
-        }
-        .soup ul li{
-       font-size: 12px;
-        }
-        .swallow{
-            margin-top: 7px;
-        
-        }
-        .swallow h1{
-            font-size: 1.3rem;
-        }
-        .swallow ul{
-            margin-top: 10px;
-            gap: 10px;
-        }
-        .swallow ul li{
-       font-size: 12px;
-        }
-        .protein{
-            margin-top: 7px;
-        
-        }
-        .protein h1{
-            font-size: 1.3rem;
-        }
-        .protein ul{
-            margin-top: 10px;
-            gap: 10px;
-        }
-        .protein ul li{
-       font-size: 12px;
-        }
+    .swallow ul li img{
+        width: 240px;
+        height: 30vh;
+        object-fit: cover;
+        margin: 1rem;
+
+    }
 }
-@media screen and (max-width:643px){
-    .menu-nav ul li{
-        margin-right: 9px;
-        cursor: pointer;
-        font-size: 10px;
-        margin-left: 9px;
+@media screen and (min-width: 1025px){
+  
+    .ricedishes ul li {
+        flex-basis: calc(10%);
+       gap: 20px;
         
     }
-    .search-box input{
-        display: none;
-        
-        }
-     button{
-            display: none;
-        }
-        .ricedishes{
-            margin-top: 2px;
-        
-        }
-        .ricedishes h1{
-            font-size: 1.3rem;
-        }
-        .ricedishes ul{
-            margin-top: 10px;
-            gap: 10px;
-        }
-        .ricedishes ul li{
-       font-size: 12px;
-        }
-        .soup{
-            margin-top: 7px;
-            
-        
-        }
-        .soup h1{
-            font-size: 1.3rem;
-        }
-        .soup ul{
-            margin-top: 10px;
-            gap: 10px;
-           
-        }
-        .soup ul li{
-       font-size: 12px;
-        }
-        .swallow{
-            margin-top: 7px;
-        
-        }
-        .swallow h1{
-            font-size: 1.3rem;
-        }
-        .swallow ul{
-            margin-top: 10px;
-            gap: 10px;
-        }
-        .swallow ul li{
-       font-size: 12px;
-        }
-        .protein{
-            margin-top: 7px;
-        
-        }
-        .protein h1{
-            font-size: 1.3rem;
-        }
-        .protein ul{
-            margin-top: 10px;
-            gap: 10px;
-        }
-        .protein ul li{
-       font-size: 12px;
-        }
-}
-@media screen and (max-width:375px){
-    .menu-nav ul li{
-        margin-right: 9px;
-        cursor: pointer;
-        font-size: 10px;
-        margin-left: 9px;
+    .ricedishes ul li img{
+        width: 240px;
+        height: 30vh;
+        object-fit: cover;
+        margin: 1rem;
+
+    }
+    .soup ul li {
+        flex-basis: calc(10%);
+        gap: 20px;
+    }
+    .soup ul li img{
+        width: 240px;
+        height: 30vh;
+        object-fit: cover;
+        margin: 1rem;
+
+    }
+    .swallow ul li {
+        flex-basis: calc(10%);
+        gap: 20px;
         
     }
-    .search-box input{
-        display: none;
-        
-        }
-     button{
-            display: none;
-        }
-        .ricedishes{
-            margin-top: 2px;
-        
-        }
-        .ricedishes h1{
-            font-size: 1.3rem;
-        }
-        .ricedishes ul{
-            margin-top: 10px;
-            gap: 10px;
-        }
-        .ricedishes ul li{
-       font-size: 10px;
-        }
-        .soup{
-            margin-top: 7px;
-            
-        
-        }
-        .soup h1{
-            font-size: 1.3rem;
-        }
-        .soup ul{
-            margin-top: 10px;
-            gap: 10px;
-           
-        }
-        .soup ul li{
-       font-size: 10px;
-        }
-        .swallow{
-            margin-top: 7px;
-        
-        }
-        .swallow h1{
-            font-size: 1.3rem;
-        }
-        .swallow ul{
-            margin-top: 10px;
-            gap: 10px;
-        }
-        .swallow ul li{
-       font-size: 10px;
-        }
-        .protein{
-            margin-top: 7px;
-        
-        }
-        .protein h1{
-            font-size: 1.3rem;
-        }
-        .protein ul{
-            margin-top: 10px;
-            gap: 10px;
-        }
-        .protein ul li{
-       font-size: 10px;
-        }
+    .swallow ul li img{
+        width: 240px;
+        height: 30vh;
+        object-fit: cover;
+        margin: 1rem;
+
+    }
 }
