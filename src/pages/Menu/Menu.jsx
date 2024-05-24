@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Menu.css';
 import { FaSearch } from 'react-icons/fa';
 import { riceDishes, soupDishes, swallowDishes} from '../../data/menuData';
+import Aos, { init } from 'aos'
+import 'aos/dist/aos.css'
 
 const Menu = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -13,6 +15,9 @@ const Menu = () => {
   const filterMenuItems = (menuItem) => {
     return menuItem.name.toLowerCase().includes(searchQuery.toLowerCase());
   };
+  useEffect(()=>{
+    Aos.init({duration:2000})
+      },[])
 
   return (
     <div className='menu'>
@@ -43,7 +48,7 @@ const Menu = () => {
         <h1>Rice Dishes</h1>
         <ul>
           {riceDishes.filter(filterMenuItems).map((dish, index) => (
-            <li key={index}>
+            <li key={index} data-aos="fade-up">
               <img src={dish.image} alt={dish.name} className="dish-image" />
               {dish.name}
             </li>
@@ -55,7 +60,7 @@ const Menu = () => {
         <h1>Soups</h1>
         <ul>
           {soupDishes.filter(filterMenuItems).map((dish, index) => (
-            <li key={index}>
+            <li key={index} data-aos="fade-up">
               <img src={dish.image} alt={dish.name} className="dish-image" />
               {dish.name}
             </li>
@@ -67,7 +72,7 @@ const Menu = () => {
         <h1>Swallow</h1>
         <ul>
           {swallowDishes.filter(filterMenuItems).map((dish, index) => (
-            <li key={index}>
+            <li key={index} data-aos="fade-up">
               <img src={dish.image} alt={dish.name} className="dish-image" />
               {dish.name}
             </li>
