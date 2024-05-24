@@ -17,7 +17,7 @@
 .menu-nav ul li a{
     margin-left: 2rem;
     margin-right: 2rem;
-    font-family: "Dancing Script", cursive;
+
 }
 .ricedishes{
     display: flex;
@@ -46,7 +46,7 @@
     flex-direction: column;
     display: flex;
     text-align: center;
-    font-family: "Dancing Script", cursive;
+
 }
 .ricedishes ul li img{
     width: 240px;
@@ -81,7 +81,7 @@
     flex-direction: column;
     display: flex;
     text-align: center;
-    font-family: "Dancing Script", cursive;
+   
 }
 .soup ul li img{
     width: 240px;
@@ -198,5 +198,10 @@
         object-fit: cover;
         margin: 1rem;
 
+    }
+}
+@media screen and (max-width: 784px){
+    .menu-nav{
+        display: none;
     }
 }
