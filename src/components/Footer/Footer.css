@@ -27,7 +27,7 @@
 .footer-info-left p{
     font-size: 18px;
     font-weight: 100;
-    font-family: "Dancing Script", cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .footer-info-middle{
     width: 20%;
@@ -38,7 +38,7 @@
 }
 .footer-info-middle p{
     font-weight: 100;
-    font-family: "Dancing Script", cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 1rem 0;
 }
 .footer-info-right{
